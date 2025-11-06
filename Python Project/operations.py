@@ -16,7 +16,7 @@ def divide(a, b):
 def mod(a,b):
     if b == 0:
         return "Error: Mod by zero!"
-    return a - b
+    return a - b - a
 
 
 #todo: add future operations here in branch called 'adding-{name of operation}-operation'
