@@ -1,4 +1,4 @@
-from operations import add, subtract, multiply, divide, mod
+from operations import add, subtract, multiply, divide, mod, power
 def main():
     print("Welcome to the Python Calculator!")
     a = 10
@@ -8,5 +8,6 @@ def main():
     print("Multiply:", multiply(a, b))
     print("Divide:", divide(a, b))
     print("Modulus:", mod(a, b))
+    print("Power:", power(a, b))
 if __name__ == "__main__":
     main()

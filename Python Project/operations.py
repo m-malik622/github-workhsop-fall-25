@@ -18,5 +18,8 @@ def mod(a,b):
         return "Error: Mod by zero!"
     return a % b
 
+def power(base, exp):
+    return base**exp
+
 
 #todo: add future operations here in branch called 'adding-{name of operation}-operation'
